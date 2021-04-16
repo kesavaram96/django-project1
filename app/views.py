@@ -9,3 +9,8 @@ def test(test):
 
 def form(form):
     return render(form,"Register.html",{})
+
+def result(result):
+     
+    
+    return render(result,"result.html",{})
