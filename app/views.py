@@ -11,6 +11,11 @@ def form(form):
     return render(form,"Register.html",{})
 
 def result(result):
-     
-    
+    uid=request.POST["uid"]
+    username=request.POST["username"]
+    email=request.POST["email"]
+    password=request.POST['password']
     return render(result,"result.html",{})
+
+def Donation(form):
+    return render(form,"Donations.html",{})
